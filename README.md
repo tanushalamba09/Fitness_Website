@@ -1,4 +1,4 @@
-# Fitness_Website
+# Fitness_Appointment_booking_Website
 This is a Fitness Website created using Html, CSS, Javascript and Bootstrap
 1. index.html: This file is created using Html which is used for creating the structure of the Home Page, the file for the image can be accessed using this link: https://www.flaticon.com/free-icon/treadmill_2382679?term=gym&page=1&position=23&origin=search&related_id=2382679.
 2. mystyle.css: This file is used for styling the index.html file which includes the buttons, heading, text, background and image.
