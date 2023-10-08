@@ -24,7 +24,7 @@ body{
     cursor: pointer;
 }
 .btn:hover{
-    background: rgba(212 , 48, 48, 0.76);
+    background: #d43030c2;
     transition: 0.4s;
 }
 /*My Header*/
