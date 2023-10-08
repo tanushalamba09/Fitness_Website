@@ -73,25 +73,25 @@ function showInfo(){
 showInfo()
 
 
-function readInfo(pic, firstName, lastName, place, date, time){
+function readInfo(pic, f_irstName, l_astName, p_lace, d_ate, t_ime){
     document.querySelector('.showImg').src = pic,
-    document.querySelector('#showFirstName').value = firstName,
-    document.querySelector("#showLastName").value = lastName,
-    document.querySelector("#showplace").value = place,
-    document.querySelector("#showsDate").value = date,
-    document.querySelector("#showtime").value = time
+    document.querySelector('#showfirstname').value = f_irstName,
+    document.querySelector("#showlastname").value = l_astName,
+    document.querySelector("#showplace").value = p_lace,
+    document.querySelector("#showdate").value = d_ate,
+    document.querySelector("#showtime").value = t_ime
 }
 
 
-function editInfo(index, pic, firstName, lastName, place, date, time){
+function editInfo(index, pic, irstName, astName, lace, ate, ime){
     isEdit = true
     editId = index
     imgInput.src = pic
-    firstName.value = firstName
-    lastName.value = lastName
-    place.value =place
-    date.value = date
-    time.value = time
+    firstName.value = irstName
+    lastName.value = astName
+    place.value = lace
+    date.value = ate
+    time.value = ime
     submitBtn.innerText = "Update"
     modalTitle.innerText = "Update The Form"
 }
