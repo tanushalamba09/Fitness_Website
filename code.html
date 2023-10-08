@@ -11,7 +11,7 @@
     <!--Bootstrap 5 icons CDN-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    <title>CRUD Operations</title>
+    <title>Fitness Trainer Appointment Scheduler</title>
 
     <link rel="stylesheet" href="style.css">
   
@@ -23,7 +23,7 @@
 
         <div class="row">
             <div class="col-12">
-                <button class="btn btn-primary newUser" data-bs-toggle="modal" data-bs-target="#userForm">New Appointment <i class="bi bi-people"></i></button>
+                <button class="btn newUser" data-bs-toggle="modal" data-bs-target="#userForm">New Appointment <i class="bi bi-people"></i></button>
             </div>
         </div>
 
@@ -48,6 +48,10 @@
 
                 </table>
             </div>
+        </div>
+
+        <div class="back">
+            <a href="index.html"><button class="button">Go back <i class="bi bi-arrow-return-left"></i></button></a>
         </div>
 
     </section>
@@ -130,23 +134,23 @@
                         <div class="inputField">
                             <div>
                                 <label for="First Name">First Name:</label>
-                                <input type="text" name="" id="First_Name" disabled>
+                                <input type="text" name="" id="showfirstname" disabled>
                             </div>
                             <div>
                                 <label for="Last Name">Last Name:</label>
-                                <input type="text" name="" id="Last_Name" disabled>
+                                <input type="text" name="" id="showlastname" disabled>
                             </div>
                             <div>
                                 <label for="place">Place:</label>
-                                <input type="text" name="" id="place" disabled>
+                                <input type="text" name="" id="showplace" disabled>
                             </div>
                             <div>
                                 <label for="Date">Date:</label>
-                                <input type="date" name="" id="date" disabled>
+                                <input type="date" name="" id="showdate" disabled>
                             </div>
                             <div>
                                 <label for="Time">Time:</label>
-                                <input type="time" name="" id="time" disabled>
+                                <input type="time" name="" id="showtime" disabled>
                             </div>
                         </div>
 
